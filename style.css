@@ -8,19 +8,15 @@ h1{
 
 body {
   font-family:  sans-serif;
-  font-size: 1.3rem;
 }
 
-#title {
+#title, #img-caption {
+  text-align: center;
+  padding: 15px;
 
 }
- *::before,
-*::after {
-  box-sizing: border-box;
-}
-h1{ color: #FFF0FF;
-  
-}
+
+
 #img-div {
     background:hsl(200, 1%, 70%);
     padding: 10px;
@@ -29,27 +25,30 @@ h1{ color: #FFF0FF;
 
 
 p {
-  padding: 10px;
+  padding: 10px 50px;
 }
 
 .influential {
-  background-color :hsl(200, 2%, 30%);
-  text-align: center;
-  padding: 3rem;
+  background-color :hsla(200, 44%, 36%, 0.692);
+  max-width: 900px;
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
-.container {
+#main {
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 10px 20px;
+  margin: auto;
 }
+
+
 
 img {
   display: block;
   width: 80%;
-  max-width: 500 px;
   height: auto;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px white;
   
 }
 
@@ -71,90 +70,42 @@ img {
   font-weight: 500;
 }
 
+ul {
+  padding: 20px 50px;
+}
+
+li {
+  list-style: none;
+  margin: 10px 0;
+  color: white;
+}
+
 ul li {
   font-size: 1.1rem;
-  text-align: justify;
 }
 
 .content {
-  background-color:hsl(200, 0%, 60%);
-  padding: 2rem;
+  background: rgb(19, 40, 160);
+  
 }
-
 
 
 .achievements h3 {
   text-align: center;
+  padding: 20px;
+  color: white;
 }
 .more-info {
   text-align: center;
 }
 
-footer {
-  background-color: hsl(200, 0%, 50%);
-  padding: 1rem;
-}
-
-
-.influential {
-  background-color :hsl(200, 2%, 30%);
-  text-align: center;
-  padding: 3rem;
-}
-
-.container {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-img {
-  display: block;
-  width: 80%;
-  max-width: 500 px;
-  height: auto;
-  
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-
-.short-story {
-  font-size: 1.2rem;
-  text-align: justify;
-  padding: 2rem;
-  
-}
-
-.container li span {
-  font-weight: 500;
-}
-
-ul li {
-  font-size: 1.1rem;
-  text-align: justify;
-}
-
-.content {
-  background-color:hsl(200, 0%, 60%);
-  padding: 2rem;
-}
-
-
-
-.achievements h3 {
-  text-align: center;
-}
-.more-info {
-  text-align: center;
+.paragraph {
+  padding: 20px;
 }
 
 footer {
   background-color: hsl(200, 0%, 50%);
-  padding: 1rem;
+  padding: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
